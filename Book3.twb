@@ -1,0 +1,718 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Finance DataSet (Hospitality Fi (HOSPITALITY - Finance Data)' inline='true' name='federated.198lwgb14ecfpv19w6io70voaj7v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HOSPITALITY - Finance Data' name='excel-direct.0640e7p0tmcfk018r3l871k9jmb2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/athar/Downloads/HOSPITALITY - Finance Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0640e7p0tmcfk018r3l871k9jmb2' name='Finance DataSet (Hospitality Fi' table='[&apos;Finance DataSet (Hospitality Fi$&apos;]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+            <column datatype='date' name='Acquisition Date' ordinal='0' />
+            <column datatype='string' name='Brand' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='date' name='Date' ordinal='4' />
+            <column datatype='string' name='Dimension' ordinal='5' />
+            <column datatype='string' name='EBITDA Label' ordinal='6' />
+            <column datatype='string' name='Gross Operating Income Label' ordinal='7' />
+            <column datatype='string' name='Gross Operating Profit Label' ordinal='8' />
+            <column datatype='string' name='Measure Type' ordinal='9' />
+            <column datatype='string' name='Net Operating Income Label' ordinal='10' />
+            <column datatype='string' name='Property' ordinal='11' />
+            <column datatype='string' name='State' ordinal='12' />
+            <column datatype='integer' name='Timetable - Row' ordinal='13' />
+            <column datatype='integer' name='_Total Departmental Expenses (Expression)' ordinal='14' />
+            <column datatype='integer' name='_Total FF&amp;E Reserves (Expression)' ordinal='15' />
+            <column datatype='integer' name='_Total Management Fees (Expression)' ordinal='16' />
+            <column datatype='integer' name='_Total Non Operating Expenses (Expression)' ordinal='17' />
+            <column datatype='integer' name='_Total Revenue (Expression)' ordinal='18' />
+            <column datatype='integer' name='Indicator - Display Value' ordinal='19' />
+            <column datatype='integer' name='Measure Value' ordinal='20' />
+            <column datatype='integer' name='Net Operating Income' ordinal='21' />
+            <column datatype='integer' name='Total Departmental Expenses' ordinal='22' />
+            <column datatype='integer' name='Total FF&amp;E Reserves' ordinal='23' />
+            <column datatype='integer' name='Total Management Fees' ordinal='24' />
+            <column datatype='integer' name='Total Non Operating Expenses' ordinal='25' />
+            <column datatype='integer' name='Total Revenue' ordinal='26' />
+            <column datatype='integer' name='Total Rooms Available' ordinal='27' />
+            <column datatype='integer' name='Total Rooms Revenue' ordinal='28' />
+            <column datatype='integer' name='Total Rooms Sold' ordinal='29' />
+            <column datatype='integer' name='Total Undistributed Expenses' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0640e7p0tmcfk018r3l871k9jmb2' name='Finance DataSet (Hospitality Fi' table='[&apos;Finance DataSet (Hospitality Fi$&apos;]' type='table'>
+          <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+            <column datatype='date' name='Acquisition Date' ordinal='0' />
+            <column datatype='string' name='Brand' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='date' name='Date' ordinal='4' />
+            <column datatype='string' name='Dimension' ordinal='5' />
+            <column datatype='string' name='EBITDA Label' ordinal='6' />
+            <column datatype='string' name='Gross Operating Income Label' ordinal='7' />
+            <column datatype='string' name='Gross Operating Profit Label' ordinal='8' />
+            <column datatype='string' name='Measure Type' ordinal='9' />
+            <column datatype='string' name='Net Operating Income Label' ordinal='10' />
+            <column datatype='string' name='Property' ordinal='11' />
+            <column datatype='string' name='State' ordinal='12' />
+            <column datatype='integer' name='Timetable - Row' ordinal='13' />
+            <column datatype='integer' name='_Total Departmental Expenses (Expression)' ordinal='14' />
+            <column datatype='integer' name='_Total FF&amp;E Reserves (Expression)' ordinal='15' />
+            <column datatype='integer' name='_Total Management Fees (Expression)' ordinal='16' />
+            <column datatype='integer' name='_Total Non Operating Expenses (Expression)' ordinal='17' />
+            <column datatype='integer' name='_Total Revenue (Expression)' ordinal='18' />
+            <column datatype='integer' name='Indicator - Display Value' ordinal='19' />
+            <column datatype='integer' name='Measure Value' ordinal='20' />
+            <column datatype='integer' name='Net Operating Income' ordinal='21' />
+            <column datatype='integer' name='Total Departmental Expenses' ordinal='22' />
+            <column datatype='integer' name='Total FF&amp;E Reserves' ordinal='23' />
+            <column datatype='integer' name='Total Management Fees' ordinal='24' />
+            <column datatype='integer' name='Total Non Operating Expenses' ordinal='25' />
+            <column datatype='integer' name='Total Revenue' ordinal='26' />
+            <column datatype='integer' name='Total Rooms Available' ordinal='27' />
+            <column datatype='integer' name='Total Rooms Revenue' ordinal='28' />
+            <column datatype='integer' name='Total Rooms Sold' ordinal='29' />
+            <column datatype='integer' name='Total Undistributed Expenses' ordinal='30' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AE10001:no:A1:AE10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acquisition Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Acquisition Date]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Acquisition Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dimension</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dimension]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Dimension</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EBITDA Label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EBITDA Label]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>EBITDA Label</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Operating Income Label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gross Operating Income Label]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Gross Operating Income Label</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross Operating Profit Label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gross Operating Profit Label]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Gross Operating Profit Label</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Measure Type]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Measure Type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Operating Income Label</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Net Operating Income Label]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Net Operating Income Label</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Property]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Property</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timetable - Row</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Timetable - Row]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Timetable - Row</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Total Departmental Expenses (Expression)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Total Departmental Expenses (Expression)]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>_Total Departmental Expenses (Expression)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Total FF&amp;E Reserves (Expression)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Total FF&amp;E Reserves (Expression)]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>_Total FF&amp;E Reserves (Expression)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Total Management Fees (Expression)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Total Management Fees (Expression)]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>_Total Management Fees (Expression)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Total Non Operating Expenses (Expression)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Total Non Operating Expenses (Expression)]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>_Total Non Operating Expenses (Expression)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>_Total Revenue (Expression)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[_Total Revenue (Expression)]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>_Total Revenue (Expression)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator - Display Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indicator - Display Value]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Indicator - Display Value</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measure Value]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Measure Value</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Operating Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Net Operating Income]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Net Operating Income</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Departmental Expenses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Departmental Expenses]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Departmental Expenses</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total FF&amp;E Reserves</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total FF&amp;E Reserves]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total FF&amp;E Reserves</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Management Fees</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Management Fees]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Management Fees</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Non Operating Expenses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Non Operating Expenses]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Non Operating Expenses</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Revenue]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Revenue</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Rooms Available</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Rooms Available]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Rooms Available</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Rooms Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Rooms Revenue]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Rooms Revenue</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Rooms Sold</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Rooms Sold]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Rooms Sold</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Undistributed Expenses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Undistributed Expenses]</local-name>
+            <parent-name>[Finance DataSet (Hospitality Fi]</parent-name>
+            <remote-alias>Total Undistributed Expenses</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Finance DataSet (Hospitality Fi' datatype='table' name='[__tableau_internal_object_id__].[Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Country, State, City'>
+          <field>[Country]</field>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Finance DataSet (Hospitality Fi' id='Finance DataSet (Hospitality Fi_C2204EC2B12E42A4BDA0B3CFF46B96BC'>
+            <properties context=''>
+              <relation connection='excel-direct.0640e7p0tmcfk018r3l871k9jmb2' name='Finance DataSet (Hospitality Fi' table='[&apos;Finance DataSet (Hospitality Fi$&apos;]' type='table'>
+                <columns gridOrigin='A1:AE10001:no:A1:AE10001:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Acquisition Date' ordinal='0' />
+                  <column datatype='string' name='Brand' ordinal='1' />
+                  <column datatype='string' name='City' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='date' name='Date' ordinal='4' />
+                  <column datatype='string' name='Dimension' ordinal='5' />
+                  <column datatype='string' name='EBITDA Label' ordinal='6' />
+                  <column datatype='string' name='Gross Operating Income Label' ordinal='7' />
+                  <column datatype='string' name='Gross Operating Profit Label' ordinal='8' />
+                  <column datatype='string' name='Measure Type' ordinal='9' />
+                  <column datatype='string' name='Net Operating Income Label' ordinal='10' />
+                  <column datatype='string' name='Property' ordinal='11' />
+                  <column datatype='string' name='State' ordinal='12' />
+                  <column datatype='integer' name='Timetable - Row' ordinal='13' />
+                  <column datatype='integer' name='_Total Departmental Expenses (Expression)' ordinal='14' />
+                  <column datatype='integer' name='_Total FF&amp;E Reserves (Expression)' ordinal='15' />
+                  <column datatype='integer' name='_Total Management Fees (Expression)' ordinal='16' />
+                  <column datatype='integer' name='_Total Non Operating Expenses (Expression)' ordinal='17' />
+                  <column datatype='integer' name='_Total Revenue (Expression)' ordinal='18' />
+                  <column datatype='integer' name='Indicator - Display Value' ordinal='19' />
+                  <column datatype='integer' name='Measure Value' ordinal='20' />
+                  <column datatype='integer' name='Net Operating Income' ordinal='21' />
+                  <column datatype='integer' name='Total Departmental Expenses' ordinal='22' />
+                  <column datatype='integer' name='Total FF&amp;E Reserves' ordinal='23' />
+                  <column datatype='integer' name='Total Management Fees' ordinal='24' />
+                  <column datatype='integer' name='Total Non Operating Expenses' ordinal='25' />
+                  <column datatype='integer' name='Total Revenue' ordinal='26' />
+                  <column datatype='integer' name='Total Rooms Available' ordinal='27' />
+                  <column datatype='integer' name='Total Rooms Revenue' ordinal='28' />
+                  <column datatype='integer' name='Total Rooms Sold' ordinal='29' />
+                  <column datatype='integer' name='Total Undistributed Expenses' ordinal='30' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{826CDD97-488F-4454-88BF-8674731349F0}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0EB9DAA0-4568-4CED-86E2-F65D42780E6A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
